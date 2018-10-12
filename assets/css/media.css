@@ -1,0 +1,154 @@
+@media screen and (max-width: 1250px){
+    .container{
+        width: 970px
+    }
+    /*-------Mobile menu---------*/
+    .menu_item{
+        padding: 0 5px;
+    }
+    .menu_item a{
+        font-size: 16px;
+    }
+    /*---------card list---------*/
+    .card{
+        width: 300px;
+    }
+    .card_small{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 750px
+    }
+    .logo{
+        width: 100px;
+    }
+    /*---------card list---------*/
+    .card-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 378px;
+        margin-bottom: 25px;
+    }
+    /*------footer-----------------*/
+    footer .wrap-img img{
+        min-height: 330px;
+    }
+    .item_title{
+        font-size: 14px;
+    }
+    .item_link{
+        font-size: 18px;
+    }
+    .address_item:nth-child(3){
+        left: 62%;
+    }
+    .adr_title{
+        font-size: 16px;
+        padding: 5px;
+    }
+    .adr_text{
+        font-size: 14px;
+    }
+    .adr_link{
+        font-size: 14px;
+    }
+    .socials_title{
+        font-size: 16px;
+    }
+    .copyright{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /*-------Mobile menu---------*/
+    .header_icon{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        transition: all .5s ease-in;
+    }
+    .header_menu{
+        width: 200px;
+        padding: 20px;
+        background-color: #72cff5d6;
+        flex-direction: column;
+        align-items: flex-start;
+        /*display: none;*/
+        position: absolute;
+        top:0;
+        right: -260px;
+        transition: all .5s ease-in;
+    }
+    .menu_item{
+        padding: 10px 0;
+    }
+    .menu_item:nth-child(4){
+        padding: 0;
+    }
+    .header_logo__mobile{
+        width: 120px;
+        display: block;
+    }
+    .header_menu .logo{
+        display: none;
+    }
+    .card{
+        width: 100%;
+        max-width: 378px;
+    }
+    /*mobile typography*/
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 30px;
+    }
+
+    /*post block*/
+    .post{
+        flex-direction: column;
+        align-items: center;
+    }
+    .post_content{
+        margin-top: 20px;
+        padding-right: 0;
+    }
+    /*footer*/
+    .item_title{
+        font-size: 14px;
+    }
+    .item_link, .socials_title{
+        font-size: 16px;
+    }
+    .copyright>*{
+        margin-bottom: 15px;
+    }
+
+    .waves, .dots, .circle, .cross{
+        display: none;
+    }
+    .footer_nav{
+
+    }
+    .socials{
+        bottom: 100px;
+    }
+    .address_item{
+        display: none;
+    }
+    .copyright>* {
+        font-size: 14px;
+    }
+}
